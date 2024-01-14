@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+ background-image: url("https://s3-alpha-sig.figma.com/img/f92d/0a41/878799f848da9fe7de85284851b01be7?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pgaj-IGeyPcWGKkLPBf-h9j4CjL8KVka25TE5IgXki7cXxlMPhe2sCUhYGZ9iFDNgUWTUhEpTvgBWaNIR9IRtLVZfSRrR-c7qU-xKI6phYoHyY3Z6GHr0B8kHTkZGuRwO9V3qJ2Pz4hRLwfp3-K7AMkRnE9MBuhxOJlvKjIUOAhVeHAX8zpwQv336kN3XkiArmZGI96NncfbHjqGz0ow-Ysn65xC7CWXSeHEinhEEE2RZylfwQPrSqcdOwKOAbJ7D~PGQS3L14l22kx1G0LnEzp00jQNqGOr8MEvTl6q1zRyKqdn~qeyChNQSfwvEIpnzzvP6NDLPH8FBFl3ekQE0A__");
+ background-position: center;
+ background-size:cover;
+ background-repeat: no-repeat;
+/* overflow: scroll; */
+overflow-y: scroll;
+overflow-x: hidden;
+ width: 100%;
+ height: 100vh;
+}
+
+.navbar {
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  color:red;
+  padding:10px;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+.navbar img{
+  position: absolute;
+  padding: 10px;
+  left: 10%;
+  top: 0;
+
+ 
+  
+}
+.bigNameWithLogo{
+  position: relative;
+  top:25%;
+ width: 40%;
+ height: 200px;
+ color:white;
+ font-weight: bold;
+ font-size: 40px;
+
+
+}
+
+.joinMeeting{
+ 
+     width: 30%;
+    height: 50%; 
+    position: relative;
+    left: 58%;
+    top:-70px;
+    background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color:white;
+  
+  /* padding-left: 60px; */
+  padding-top: 40px;
+  align-items: center;
+  
+ }
+ .joinMeeting input{
+  box-sizing: border-box;
+  width: 70%;
+  display:inline-block;
+  height: 35px;
+ 
+  
+ }
+.joinMeeting label{
+  display:inline-block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  
+ } 
+ .joinMeeting button{
+  
+  display:inline-block;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: rgb(243, 243, 243);
+  background-color: #297bca;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 20px;
+  width: 70%;
+ } 
+
+.aibot{
+  
+  /* border: 2px solid red; */
+  width: 30%;
+  position: relative;
+  margin-left: auto; 
+margin-right: 0;
+
+
+
+}
+
+.aibot button{
+  color: white;
+  font-size: large;
+  border: none;
+  background-color:transparent
+}
+
+.Aipage
+{
+  position: fixed;
+    top: 20%;
+  border: 2px solid red;
+  margin-top:20px;
+  margin-left: 40px;
+  width:60vw;
+  height: 60vh;
+  border-radius: 20px;
+  background: rgba( 255, 255, 255, 0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  z-index: 1;
+}
+.Bgvideo{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  top:0;
+
+}
+.SendBox
+{
+ 
+  position: fixed;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  z-index: 2;
+  
+ 
+
+}
+.Textbox input{
+  width: 72%;
+  height: 30px;
+
+  background: rgba(229, 234, 238, 0.891);
+
+backdrop-filter: blur(10px);
+  border-radius: 10px;
+  order: 1px solid var(--GS-Grey, #e4e3e3);
+  
+}
+.Textbox button{
+  color: white;
+  font-weight: bold;
+  height: 37px;
+  background-color:#05529b80;
+  border: none;
+  border-radius: 5px;
+}
+.a{
+  background-color:#E9E9EB;
+  margin-top:7px;
+  border-radius: 20px;
+ width: fit-content;
+margin-left: 0;
+margin-right: auto;
+padding:10px;
+overflow: hidden;
+word-wrap: break-word;
+max-width: 50%;
+}
+.b{
+  background-color: #2E9DFB;
+  margin-top:7px;
+  border-radius: 20px;
+ width: fit-content;
+margin-right: 0;
+margin-left: auto;
+padding:10px;
+word-wrap: break-word;
+max-width: 50%;
+}
